@@ -1,5 +1,7 @@
 import DashboardCard from "@/components/dashboard/DashboardCard";
 import { Folder, Newspaper, User, MessageCircle } from "lucide-react";
+import PostsTable from "@/components/posts/PostsTable";
+
 export default function Home() {
   return (
     <>
@@ -9,6 +11,7 @@ export default function Home() {
         <DashboardCard title="Users" count={750} icon={<User />} />
         <DashboardCard title="Comments" count={300} icon={<MessageCircle />} />
       </div>
+      <PostsTable limit={5} />
     </>
   );
 }
