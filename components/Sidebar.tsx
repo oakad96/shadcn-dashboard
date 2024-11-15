@@ -28,7 +28,7 @@ const Sidebar = () => {
         <CommandGroup heading="Suggestions">
           <CommandItem>
             <LayoutDashboard className="w-4 h-4 mr-2" />
-            <Link href="/dashboard">Dashboard</Link>
+            <Link href="/">Dashboard</Link>
           </CommandItem>
           <CommandItem>
             <Newspaper className="w-4 h-4 mr-2" />
