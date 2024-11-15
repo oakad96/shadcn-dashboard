@@ -40,7 +40,7 @@ const Sidebar = () => {
           </CommandItem>
         </CommandGroup>
         <CommandSeparator />
-        <CommandGroup heading="Settings">
+        <CommandGroup heading="Keybindings">
           <CommandItem>
             <User className="w-4 h-4 mr-2" />
             <span>Profile</span>
